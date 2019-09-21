@@ -3,7 +3,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -38,7 +37,6 @@ bootstrap—the root component that Angular creates and inserts into the index.h
     // Core Module
     BrowserModule,
     FormsModule,
-    HttpModule,
 
     // Application Module
     AppRoutingModule,

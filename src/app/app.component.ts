@@ -4,7 +4,7 @@ import { User, UserService } from './user/user.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
   providers: [UserService]
 })
 export class AppComponent  implements OnInit  {
@@ -18,4 +18,3 @@ export class AppComponent  implements OnInit  {
     this.userService.getUsers().then(users => this.users = users);
   }
 }
-
